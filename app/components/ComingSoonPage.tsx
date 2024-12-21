@@ -6,7 +6,6 @@ import AnimatedText from './AnimatedText';
 
 const ComingSoonPage = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
 
   const handleDiscordClick = () => {
     window.open('https://discord.gg/JHfyRaF4JV', '_blank');
@@ -106,7 +105,7 @@ const ComingSoonPage = () => {
               className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed"
             >
               A groundbreaking project that will challenge everything you know about technological possibilities.
-              <span className="block mt-2">Be among the first to witness what's coming.</span>
+              <span className="block mt-2">Be among the first to witness what&apos;s coming.</span>
             </motion.p>
 
             {/* Discord Button */}
